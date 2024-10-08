@@ -57,6 +57,6 @@ console.log(m)
 let Radius = Math.random()*10
 let Height = Math.random()*10
 
-let Volume = Math.round(Math.PI * 2 * Radius * Height)
+let Volume = Math.round(Math.PI * Radius**2 * Height)
 
 console.log(`The volume of my random cylinder is ${Volume}`)
